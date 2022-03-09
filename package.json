@@ -1,5 +1,5 @@
 {
-  "name": "yaml-path",
+  "name": "node-yaml-path",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
