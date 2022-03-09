@@ -1,10 +1,14 @@
 {
   "name": "node-yaml-path",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./dist/index.js",
   "author": "Alan S. Ferreira",
   "license": "SEE LICENSE IN LICENCE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alansferreira/node-yaml-path"
+  },
   "files": [
     "dist"
   ],
