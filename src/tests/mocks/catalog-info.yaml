@@ -1,0 +1,22 @@
+#+----------------------------------------------------------+
+#|               Evite alterar este arquivo                 |
+#|              Só altere se for recomendado                |
+#| Alterações erradas podem impactar a entrega da aplicação |
+#+----------------------------------------------------------+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "bk-teste-22"
+  description: "bk-teste-22"
+  tags:
+    - library
+    - typescript
+  annotations:
+    # Backstage default annotations  
+    sonarqube.org/project-key: ""
+    backstage.io/code-coverage: scm-only
+    
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "squad-one"

@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "dist",
+    
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "allowUmdGlobalAccess": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "pretty": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "checkJs": true,
+    "esModuleInterop": true,
+    
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+
+    "target": "ES2017",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    
+    "lib": ["es2020", "dom"],
+    "types": [
+      "node", "jest"
+    ],
+    "typeRoots": [
+      "./src/@types",
+      "./node_modules/@types"
+    ],
+  },
+  "include": [
+    "src/**/*",
+    "src/**/*.json"
+, "src/.ts"  ],
+  "exclude": ["node_modules", "dist", "test", "**/*spec.ts"]
+}
